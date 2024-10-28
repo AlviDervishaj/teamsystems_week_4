@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body, #root {
+    @apply w-dvw h-dvh bg-slate-800 text-slate-200;
+  }
+}
